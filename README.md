@@ -14,12 +14,12 @@ GCVD2025는 디자이너 게스트의 포트폴리오 및 방명록 시스템을
 
 ```
 ┌─────────────────┐    HTTP/REST API    ┌─────────────────┐    Redis    ┌─────────────────┐
-│   Next.js       │◄──────────────────►│  Spring Boot    │◄───────────►│     Redis       │
+│   Next.js       │◄─────────-─────────►│  Spring Boot    │◄───────────►│     Redis       │
 │   Frontend      │                     │    Backend      │             │    Database     │
 │                 │                     │                 │             │                 │
-│ - TypeScript    │                     │ - Kotlin        │             │ - 방명록 데이터  │
-│ - Framer Motion │                     │ - JPA/Hibernate │             │ - 세션 관리     │
-│ - Tailwind CSS  │                     │ - Swagger/OpenAPI│             │                 │
+│ - TypeScript    │                     │ - Kotlin        │             │ - 방명록 데이터    │
+│ - Framer Motion │                     │ - JPA/Hibernate │             │ - 세션 관리       │
+│ - Tailwind CSS  │                     │ - Swagger       │             │                 │
 └─────────────────┘                     └─────────────────┘             └─────────────────┘
 ```
 
@@ -279,5 +279,3 @@ docker push your-registry/gcvd-backend
 - **DevOps**: Docker, GitHub Actions
 
 ---
-
-*이 프로젝트는 디자이너 게스트의 포트폴리오 및 방명록 시스템을 위해 개발되었습니다.*
